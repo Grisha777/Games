@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Камень, Ножницы, Бумага</title>
+        <link rel="stylesheet" href="Rock_paper_scissors.css">
+    </head>
+    <body>
+        <main>
+            <h1>«Камень, Ножницы, Бумага»</h1>
+            <div class="score-container">
+                <strong>Очки игрока: <span class="score" id="player-score">0</span></strong>
+                <strong>Очки компьютера: <span class="score" id="computer-score">0</span></strong>
+            </div>
+
+            <section class="options-container">
+                <h2>Выберите вариант</h2>
+                <div class="btn-container">
+                    <button class="btn" id="rock-btn">Камень</button>
+                    <button class="btn" id="scissors-btn">Ножницы</button>
+                    <button class="btn" id="paper-btn">Бумага</button>
+                </div>
+            </section>
+
+            <div class="results-container">
+                <p id="results-msg"></p>
+                <p id="winner-msg"></p>
+                <button class="btn" id="reset-game-btn">Сыграть ещё раз?</button>
+            </div>
+        </main>
+        <script src="Rock_paper_scissors.js"></script>
+    </body>
+</html>
