@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ролевая игра</title>
+      <link rel="stylesheet" href="role_play.css">
+  </head>
+  <body>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">Опыт: <strong><span id="expText">0</span></strong></span>
+        <span class="stat">Здоровье: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Золото: <strong><span id="goldText">50</span></strong></span>
+      </div>
+      <div id="controls">
+        <button id="button1">Перейти в магазин</button>
+        <button id="button2">Идти в пещеру</button>
+        <button id="button3">Сразиться с драконом</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Монстр: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Здоровье: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="text">
+       Ты должен победить дракона! Сейчас ты находишься на городской площади. Куда ты хочешь пойти?
+      </div>
+    </div>
+    <script src="role_play.js"></script>
+  </body>
+</html>
